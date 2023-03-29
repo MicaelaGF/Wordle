@@ -12,7 +12,7 @@ const options = {
 	}
 };
 
-fetch('https://1000-most-common-words.p.rapidapi.com/words/spanish?words_limit=1', options)
+fetch('https://palabras-aleatorias-public-api.herokuapp.com/random', options)
 .then(result => result.json())
 .finally(()=>{
     let loadingElement = document.querySelector('.loading')
